@@ -42,27 +42,27 @@ const Home = () => {
       <section id="boxes">
         <div className="container">
                     <div className="box">
-                      <img src="/img/way_kings.jpeg" alt="Way of Kings"/>  
-                      <h3>Employee Education</h3>
+                    <Image src="/img/way_kings.jpeg" alt="Way of Kings" width={5000}
+      height={200} />  {/* Added alt text for accessibility */} 
+                      <h3>The Way of Kings</h3>
                       <p>Nam in dignissim augue, at vestibulum lacus. Donec scelerisque nec risus quis lobortis.</p>
                     </div>
 
           <div className="box">
-          <Image src="/img/chatbot-logo2.png" alt="Customer Support" width={400}
-      height={100} />  {/* Added alt text for accessibility */}
-            <h3>Application Help</h3>
+          <Image src="/img/name_wind.jpeg" alt="Customer Support" width={5000}
+      height={200} />  {/* Added alt text for accessibility */}
+            <h3>Name of the Wind</h3>
             <p>Nam in dignissim augue, at vestibulum lacus. Donec scelerisque nec risus quis lobortis.</p>
           </div>
 
           <div className="box">
-            <Image src="/img/chatbot-logo3.png" alt="System Troubleshooting" width={400}
-      height={100} />  {/* Added alt text for accessibility */}
-            <h3>System Troubleshooting</h3>
+            <Image src="/img/lev_wakes.jpeg" alt="System Troubleshooting" width={400}
+      height={200} />  {/* Added alt text for accessibility */}
+            <h3>Leviathin Wakes</h3>
             <p>Nam in dignissim augue, at vestibulum lacus. Donec scelerisque nec risus quis lobortis.</p>
           </div>
         </div>
       </section>
-
       <footer>
         <p>King's Book Recommendations, Copyright &copy; 2024</p>
       </footer>
