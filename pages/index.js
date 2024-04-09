@@ -10,7 +10,7 @@ const Home = () => {
             <header>
               <div className="container">
                 <div id="branding">
-                  <h1><span class="highlight">King's</span> Book Recommendations</h1>
+                  <h1><span class="highlight">King&apos;s</span> Book Recommendations</h1>
                 </div>
                 <nav>
                   <u1>
@@ -64,7 +64,7 @@ const Home = () => {
         </div>
       </section>
       <footer>
-        <p>King's Book Recommendations, Copyright &copy; 2024</p>
+        <p>King&apos;s Book Recommendations, Copyright &copy; 2024</p>
       </footer>
     </div>
   );
